@@ -1,0 +1,429 @@
+
+
+body {
+    background-color: #e0ffff;
+}
+/* <style> */
+
+.title { 
+
+    margin-left: 40%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    max-width: 100%;
+    height: auto;
+/* text-align: center; cant be used as my text is not align itself and nav bar takes up space */
+}
+
+/* this adjusts the positioning of the title text found on the top of the webpage */
+
+
+
+/* </style> */
+
+
+
+/* <style> */
+    .imageclass1 {
+
+        margin-left: 0%;
+        margin-right: 10%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        max-width: 20%;
+        height: auto;
+    }
+/* </style> */
+
+
+/* <style> */
+.menusixth {
+    list-style-type: none;
+    /* removes the bullet points */
+    margin: 0;
+    /* removes browser settings */
+    padding: 0;
+    /* removes browser settings */
+    width: 20%;
+    /* width= the length of the navigation bar buttons */
+    height: auto;
+    background-color: #FFEBE0;
+    /* the main color before the hover function changes the button color */
+    border: 1px solid #555;
+    /* Makes a solid one pixel wide border around the menu  */
+    margin-top: 7.5%;
+    /* gets the menu relatively in the middle of the left side of the screen */
+    
+}
+
+.menusixth {
+    position: fixed;
+    /* keeps the nav bar in the view of the user as they scroll without it would go up rather than stay in its current position */
+}
+
+/* .menusixth { */
+    /* overflow: auto; */
+    /* doesnt seem to do much as i have moved everything away from the nav bar because of ptsd */
+/* } */
+
+
+
+.menusixth li a {
+
+    display: block;
+    /* blokk */
+    color: black;
+    /* alters the navigation bar word/text color*/
+    padding: 10% 20%;
+    /* the first px count is for top and bottom padding and the second px count 
+is for the left and right padding/space to the left and right side of the menu text */
+    text-decoration: none;
+    /* removes the underlining decoration that url link usually have */
+}
+
+/* Change the link color on hover */
+.menusixth li a:hover {
+    background-color: #fad9f2;  
+    /* What color each hovered over button changes into  */
+    color: black;
+    /* changes the color of the text of the button after its 
+respective button has been hovered over */
+
+}
+
+.active-annoying-not-auto-lit-up {
+    background-color: #FAC898 ;
+    /* makes the specific class part of nav bar lit up you need to manually choose
+ which part of the menu to change to showcase which is active through class 
+ name though */
+    color: white;
+    /* changes the color of the text so that it is easier to see when the specific 
+"active" part is a dark color since black is harder to see when paired with 
+darker colors while white contrasts better */
+}
+
+.menusixth li {
+
+    text-align: center;
+
+    border-bottom: 1px solid #555;
+}
+
+/* completes the table look for the menu but since border and border bottom
+do the same thing there is a 2 px line on the bottom of the menu */
+
+
+.menusixth li:last-child {
+
+    border-bottom: none;
+}
+/* </style> */
+
+
+
+/* <style> */
+
+    .p1 {
+        margin-left: 40%;
+        margin-right: 10%;
+        text-align: justify; 
+
+    }
+
+/* </style> */
+
+
+/* <style> */
+.p2 {
+    margin-left: 20%;
+    margin-top: 100%;
+
+}
+/* </style> */
+
+
+
+
+/* portfolio section*/
+
+
+/* <style> */
+.imageclass2 {
+
+    margin-left: 7.5%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    max-width: 50%;
+    height: auto;
+}
+/* </style> */
+
+
+/* <style> */
+.knife_paragraph {
+    margin-left: 20%; 
+    
+    /* pushes text 20% of page length to the right basically you remove this and the text freely touches left edge  */
+
+    margin-right: 60%;
+
+     /* pushes text 60% of page length to the left basically you remove this and the text freely touches right edge  */
+
+    text-align: justify;
+
+}
+/* </style> */
+
+
+/* <style> */
+    .Finished-landscape-ad {
+
+        margin-left: 20%;
+        margin-right: 10%;
+        margin-top: 10%; 
+
+        /* gives space between the ad for knife tattoo between the bottom of the text and top of the ad */
+        
+        margin-bottom: 10%;
+
+    }
+/* </style> */
+
+.Javascript_link {
+
+    text-align: center;
+}
+
+
+/* <style> */
+    .footer_portfolio {
+        margin-left: 20%;
+        margin-top: 100%;
+
+    }
+/* </style> */
+
+
+
+.Portfolio {
+    height:100vh;
+    width:80vw;
+    margin-top:25vh;
+    margin-left: 25vh;
+  }
+
+
+/* About_Me */
+
+.about_paragraph {
+  margin-left: 40%;
+  margin-right: 10%;
+  text-align: justify;
+}
+
+.about_paragraph2 {
+    margin-left: 40%;
+    margin-right: 10%;
+    text-align: justify;
+  }
+
+
+
+  .ping_pong_video {
+    margin-left: 40%;
+    margin-right: 10%;
+}
+
+
+
+/* <div id="whateverid">content</div> */
+
+#pingid  {
+
+  display:flex;
+  
+  justify-content:center;
+  
+  align-items:center;
+  
+  }
+  #pingid2  {
+
+    display:flex;
+    
+    justify-content:center;
+    
+    align-items:center;
+    
+    }
+  
+
+  /* Design_Manual */
+
+  .design_manual {
+    height:100vh;
+    width:80vw;
+    margin-top:25vh;
+    margin-left: 25vh;
+  }
+
+
+
+
+
+
+  /* Javascript  */
+
+
+
+
+
+
+  .Navigation_Bar_Javascript_Page 
+    {
+    list-style-type: none;
+    /* removes the bullet points */
+    margin: 0;
+    /* removes browser settings */
+    padding: 0;
+    /* removes browser settings */
+    width: 10%;
+    /* width= the length of the navigation bar buttons */
+    height: auto;
+    background-color: #FFEBE0;
+    /* the main color before the hover function changes the button color */
+    border: 1px solid #555;
+    /* Makes a solid one pixel wide border around the menu  */
+    margin-top: 7.5%;
+    /* gets the menu relatively in the middle of the left side of the screen */
+    
+}
+
+.Navigation_Bar_Javascript_Page 
+    {
+    position: fixed;
+    /* keeps the nav bar in the view of the user as they scroll without it would go up rather than stay in its current position */
+}
+
+ 
+
+
+
+
+/* <style> */
+.Navigation_Bar_Javascript_Page  {
+    list-style-type: none;
+    /* removes the bullet points */
+    margin: 20%;
+    /* removes browser settings */
+    padding: 0;
+    /* removes browser settings */
+    width: 10%;
+    /* width= the length of the navigation bar buttons */
+    height: auto;
+    background-color: #FFEBE0;
+    /* the main color before the hover function changes the button color */
+    border: 1px solid #555;
+    /* Makes a solid one pixel wide border around the menu  */
+    margin-top: 7.5%;
+    /* gets the menu relatively in the middle of the left side of the screen */
+    
+}
+
+.Navigation_Bar_Javascript_Page  {
+    position: fixed;
+    /* keeps the nav bar in the view of the user as they scroll without it would go up rather than stay in its current position */
+}
+
+/* .menusixth { */
+    /* overflow: auto; */
+    /* doesnt seem to do much as i have moved everything away from the nav bar because of ptsd */
+/* } */
+
+
+
+.Navigation_Bar_Javascript_Page  li a {
+
+    display: block;
+    /* blokk */
+    color: black;
+    /* alters the navigation bar word/text color*/
+    padding: 10% 20%;
+    /* the first px count is for top and bottom padding and the second px count 
+is for the left and right padding/space to the left and right side of the menu text */
+    text-decoration: none;
+    /* removes the underlining decoration that url link usually have */
+}
+
+/* Change the link color on hover */
+.Navigation_Bar_Javascript_Page  li a:hover {
+    background-color: #fad9f2;  
+    /* What color each hovered over button changes into  */
+    color: black;
+    /* changes the color of the text of the button after its 
+respective button has been hovered over */
+
+}
+
+.active-annoying-not-auto-lit-up {
+    background-color: #FAC898 ;
+    /* makes the specific class part of nav bar lit up you need to manually choose
+ which part of the menu to change to showcase which is active through class 
+ name though */
+    color: white;
+    /* changes the color of the text so that it is easier to see when the specific 
+"active" part is a dark color since black is harder to see when paired with 
+darker colors while white contrasts better */
+}
+
+.Navigation_Bar_Javascript_Page  li {
+
+    text-align: center;
+
+    border-bottom: 1px solid #555;
+}
+
+/* completes the table look for the menu but since border and border bottom
+do the same thing there is a 2 px line on the bottom of the menu */
+
+
+.Navigation_Bar_Javascript_Page  li:last-child {
+
+    border-bottom: none;
+}
+/* </style> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #calculator_id  {
+    display:flex;
+  
+    justify-content:center;
+    
+    align-items:center;
+    
+    }
+
